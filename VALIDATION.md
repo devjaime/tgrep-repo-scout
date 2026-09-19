@@ -51,4 +51,6 @@ Local-model inference is optional and is not part of `npm test`. See [local-mode
 
 No comparative agent benchmark, token-saving measurement, independent agent behavior evaluation, live-server test or cross-platform certification was performed. The tests validate the helper and representative retrieval workflows, not universal reasoning quality. Search budgets across queries are maintained by the agent, not persisted/enforced by the helper.
 
-Publication target: public GitHub repository `devjaime/tgrep-repo-scout`, installed with `npx skills add devjaime/tgrep-repo-scout`. skills.sh listing depends on installation telemetry after the repository is public; it is not created by a separate upload command.
+Public GitHub repository: https://github.com/devjaime/tgrep-repo-scout
+
+Remote Skills CLI discovery (`npx skills add devjaime/tgrep-repo-scout --list`) found exactly one skill. skills.sh catalog listing still depends on installation telemetry; it is not created by a separate upload command.
