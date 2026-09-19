@@ -1,0 +1,9 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [{
+    "title": "Repository intelligence",
+    "description": "Evidence-driven repository investigation with Microsoft tgrep.",
+    "skills": ["tgrep-repo-scout"]
+  }]
+}

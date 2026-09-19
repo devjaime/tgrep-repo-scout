@@ -1,0 +1,16 @@
+{
+  "name": "tgrep-repo-scout",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-driven repository investigation skill for Microsoft tgrep",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.3"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:integration": "SCOUT_INTEGRATION=1 node --test tests/*.test.mjs",
+    "eval:local": "node skills/tgrep-repo-scout/scripts/eval-local.mjs"
+  }
+}
